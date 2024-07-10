@@ -75,7 +75,7 @@
 /* This is the section part : css start     */
 #container {
   background: rgb(255, 255, 255);
-  height: 4518px;
+  height: 1500px;
   width: 1238px;
 }
 .primary-box {
@@ -172,30 +172,30 @@
   text-align: left;
   padding: 0px;
 }
-.secondery-description{
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: left;
+.secondery-description {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .secondery-btn {
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0%;
-    width: 129px;
-    height: 41px;
-    text-align: center;
-    cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  width: 129px;
+  height: 41px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .primary-title {
@@ -244,3 +244,50 @@
 }
 
 /* This is the section part : css end     */
+/* This is the inspiration part : html start  */
+.inspiration-box {
+  height: 668px;
+  width: 980px;
+  left: 127px;
+  padding: 0px;
+  margin: 10px auto;
+}
+.inspiration-title {
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+}
+.inspiration-fram {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  margin: 48px 0px;
+  width: 980px;
+  height: 528px;
+  position: static;
+}
+iframe{
+    border-radius: 14px;
+}
+/* This is the inspiration part : html start  */
