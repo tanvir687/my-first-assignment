@@ -83,15 +83,11 @@
   width: 100%;
 }
 .primary-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   position: absolute;
-  width: 50% auto;
+  width: 80%;
   height: 1260px;
-  left: 120px;
-  right: 120px;
+  left: 60px;
+  right: 130px;
   top: 630px;
   bottom: 2574px;
   padding: 68px 85px 68px 85px;
