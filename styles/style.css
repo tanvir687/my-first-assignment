@@ -127,6 +127,26 @@
   );
   margin: 32px 0px;
 }
+.card-two {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.card-section {
+  background: linear-gradient(
+    360deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
 .pera {
   display: flex;
   flex-direction: row;
@@ -141,6 +161,7 @@
   width: 731px;
   height: 206px;
 }
+
 .card-text {
   display: flex;
   flex-direction: column;
@@ -158,7 +179,7 @@
   margin: 32px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 0px;
 }
@@ -236,6 +257,10 @@
 .primay-img {
   height: 206px;
   width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 #container .card {
   display: flex;
@@ -293,14 +318,11 @@ iframe {
 /* This is the inspiration part : css end  */
 /* This is the current target part : css start  */
 
-#terget-item{
-  /* height: 550px;
-  width: 925px; */
+#terget-item {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 550px;
- 
 }
 .terget-box {
   margin: 10px auto;
@@ -347,17 +369,17 @@ iframe {
 
 /* This is the current target part : css end  */
 /* This is the target cart part : css start  */
-.terget-box{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+.terget-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-.cards{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .target-card-one {
   margin: 0px 20px;
@@ -373,28 +395,28 @@ iframe {
   background: rgba(255, 76, 30, 0.05);
 }
 .target-card-two {
-    margin: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 30px;
-    width: 300px;
-    height: 240px;
-    border-radius: 14px;
-    background: rgba(0, 76, 232, 0.05);
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  width: 300px;
+  height: 240px;
+  border-radius: 14px;
+  background: rgba(0, 76, 232, 0.05);
 }
 .target-card-three {
-    margin: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 30px;
-    width: 300px;
-    height: 240px;
-    border-radius: 14px;
-    background: rgba(255, 223, 0, 0.05);
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  width: 300px;
+  height: 240px;
+  border-radius: 14px;
+  background: rgba(255, 223, 0, 0.05);
 }
 .target-title {
   color: rgb(13, 19, 33);
@@ -429,3 +451,139 @@ iframe {
   text-decoration-line: underline;
 }
 /* This is the target cart part : css end  */
+/* This is the support section part : css start  */
+#support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 400px;
+}
+.support-section {
+  width: 900px;
+  height: 270px;
+  background: url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  padding: 50px 34px 50px 34px;
+  top: 3370px;
+  bottom: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-area {
+  width: 925px;
+  height: 159px;
+  margin: 28px 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.support-title {
+  margin: 14px 0px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0px;
+}
+.support-description {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 14px 0px;
+  opacity: 0.7;
+}
+.support-box {
+  width: 471px;
+  height: 49px;
+  padding: 18px 19px 18px 19px;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 30px;
+}
+
+.support-search {
+  margin: 0px 10px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: start;
+
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  width: 270px;
+}
+.submit-btn {
+  height: 20px;
+  width: 68px;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 14px;
+  padding: 15px 18px 15px 18px;
+  border: none;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.submit-button {
+  font-weight: 800px;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+.primary-submit-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#submit-button-chack{
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+/* This is the support section part : css end  */
