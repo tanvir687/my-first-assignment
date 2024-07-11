@@ -5,9 +5,13 @@
   padding: 0;
   margin: o;
 }
+#main-box{
+  width: 100%;
+  height: 100%;
+}
 /* This is the banner part : css start     */
 #hero {
-  width: 1253px;
+  width: 100%;
   height: 570px;
   left: 0;
   right: 0;
@@ -76,11 +80,11 @@
 #container {
   background: rgb(255, 255, 255);
   height: 1500px;
-  width: 1238px;
+  width: 100%;
 }
 .primary-box {
   position: absolute;
-  width: 980px;
+  width: 81%;
   height: 1260px;
   left: 60px;
   right: 130px;
@@ -570,12 +574,12 @@ iframe {
   border: none;
   background: rgb(255, 255, 255);
 }
-.primary-submit-btn{
+.primary-submit-btn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#submit-button-chack{
+#submit-button-chack {
   font-weight: 600;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -584,6 +588,72 @@ iframe {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
-
 }
 /* This is the support section part : css end  */
+/* This is the footer navigation bar: css start   */
+
+#footer {
+  height: 86px;
+  width: 100%;
+}
+.footer-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.footer-text {
+  border-radius: 12px;
+  background: rgba(13, 19, 33, 0.03);
+  /* padding: 28px 130px 28px 130px; */
+  top: 5660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 500px;
+  width: 100%;
+}
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 32px 0px;
+  height: 30px;
+  width: 950px;
+  margin: 32px 0px;
+  padding: 0px;
+  flex: none;
+  align-self: center;
+}
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0px 14px;
+  padding: 0px;
+}
+.footer-icon {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+/* This is the footer navigation bar: css end   */
